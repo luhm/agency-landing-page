@@ -1,4 +1,4 @@
-# Frontend Mentor - Recipe page
+# Frontend Mentor - Agency Landing Page
 
 ![Design preview for agency landing page challenge on Frontend Mentor](./design/desktop-preview.jpg)
 
