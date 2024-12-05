@@ -11,20 +11,20 @@ The designs were created to the following widths:
 
 ## Colors
 
-### Primary
+### Primary 
 
-- Soft red: hsl(7, 99%, 70%)
-- Yellow: hsl(51, 100%, 49%)
-- Dark desaturated cyan (graphic design text): hsl(167, 40%, 24%)
-- Dark blue (photography text): hsl(198, 62%, 26%)
-- Dark moderate cyan (footer): hsl(168, 34%, 41%)
+- Soft red: hsl(7, 99%, 70%) - parece a do fundo da taça #FE7867
+- Yellow: hsl(51, 100%, 49%) - parece a do fundo do ovo #FAD400
+- Dark desaturated cyan (graphic design text): hsl(167, 40%, 24%) #25564B
+- Dark blue (photography text): hsl(198, 62%, 26%) #19536B
+- Dark moderate cyan (footer): hsl(168, 34%, 41%) #458C7E
 
 ### Neutral
 
-- Very dark desaturated blue: hsl(212, 27%, 19%)
-- Very dark grayish blue: hsl(213, 9%, 39%)
-- Dark grayish blue: hsl(232, 10%, 55%)
-- Grayish blue: hsl(210, 4%, 67%)
+- Very dark desaturated blue: hsl(212, 27%, 19%) títulos das duas primeiras partes #23303E
+- Very dark grayish blue: hsl(213, 9%, 39%) texto das duas primairas partes #5A636C
+- Dark grayish blue: hsl(232, 10%, 55%) #818498
+- Grayish blue: hsl(210, 4%, 67%) client testimonials #A7ABAE
 - White: hsl(0, 0%, 100%)
 
 ## Typography
