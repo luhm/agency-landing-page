@@ -5,8 +5,8 @@
   }
 
 body {
-    color: hsl(228, 45%, 44%)
-    font-size: 11px;
+    color: hsl(228, 45%, 44%);
+    font-size: 18px;
     text-align: center;
     width: 375px;
     height: 100%;
@@ -80,6 +80,7 @@ body {
     font-size: 12px;
     font-weight: 700;
     color: #23303E;
-    padding: 20px;
+    padding: 20px 20px 40px 20px;
+    text-decoration: underline solid 4px rgba(255, 255, 0, 0.5);
 }
 
