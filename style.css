@@ -93,4 +93,38 @@ body {
     box-sizing: border-box;
 }
 
+/*-----TEXTO DO STAND-OUT-----*/
+
+.aparece {
+    display: flex;
+    flex-direction: column;
+    background-color: #fffbf8;
+}
+
+.aparece h1 {
+    font-family: "Fraunces";
+    font-size: 30px;
+    font-weight: bold 900px;
+    padding: 30px;
+    color: #23303E;
+}
+
+.aparece p {
+    font-family: "Barlow";
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 600;
+    letter-spacing: tight;
+    color: #818498;
+    line-height: 25px;
+}
+
+.aparece .learn2 {
+    font-family: "Fraunces";
+    font-size: 12px;
+    font-weight: 700;
+    color: #23303E;
+    padding: 20px 20px 40px 20px;
+    text-decoration: underline solid 4px rgba(254, 120, 103, 0.5);
+}
 
