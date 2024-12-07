@@ -128,3 +128,47 @@ body {
     text-decoration: underline solid 4px rgba(254, 120, 103, 0.5);
 }
 
+/*-----DIV CEREJAS-----*/
+
+.gd-photo {
+    display: flex;
+    flex-direction: column;
+}
+
+.gd {
+    background-image: url(./images/mobile/image-graphic-design.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 520px;
+    align-items: end;
+}
+
+.photo {
+    background-image: url(./images/mobile/image-photography.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 520px;
+
+}
+
+.gd-photo h1 {
+    font-family: "Fraunces";
+    font-size: 30px;
+    font-weight: bold 900px;
+    padding: 30px;
+    color: #23303E;
+    align-items: end;
+}
+
+.gd-photo p {
+    font-family: "Barlow";
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 600;
+    letter-spacing: tight;
+    color: #818498;
+    line-height: 25px;
+}
+
+/*-----DIV MEXERICA-----*/
+
