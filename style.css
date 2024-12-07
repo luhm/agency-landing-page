@@ -66,7 +66,7 @@ body {
     color: #23303E;
 }
 
-.transform-brand:nth-child(2) P {
+.transform-brand:nth-child(2) p {
     padding-left: 30px;
     padding-right: 30px;
     font-weight: 600;
@@ -83,4 +83,14 @@ body {
     padding: 20px 20px 40px 20px;
     text-decoration: underline solid 4px rgba(255, 255, 0, 0.5);
 }
+
+/*------IMAGEM DA TAÇA------*/
+
+.taca {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
 
