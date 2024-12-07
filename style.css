@@ -135,12 +135,19 @@ body {
     flex-direction: column;
 }
 
-.gd {
+.gd1 {
     background-image: url(./images/mobile/image-graphic-design.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 520px;
-    align-items: end;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gd2 {
+    padding-top: 280px;
 }
 
 .photo {
@@ -148,7 +155,11 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     height: 520px;
-
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 280px;
 }
 
 .gd-photo h1 {
@@ -170,5 +181,49 @@ body {
     line-height: 25px;
 }
 
-/*-----DIV MEXERICA-----*/
+/*-----TESTIMONIALS-----*/
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.testimonials h1 {
+    font-family: "Fraunces";
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 5px;
+    color: #A7ABAE;
+    padding-top: 40px;
+}
+
+.testimonials p {
+    font-family: "Barlow";
+    font-weight: 600;
+    letter-spacing: normal;
+    padding: 5px;
+    color: #5A636C;
+}
+
+.testimonials .test-name {
+    font-family: "Fraunces";
+    font-weight: bold;
+    color: #23303E;
+}
+
+.testimonials .test-job {
+    font-family: "Barlow";
+    font-size: 14px;
+    font-weight: 500;
+    color: #A7ABAE;
+}
+
+.testimonials img {
+    border-radius: 50%;
+    margin-top: 40px;
+}
+
+
 
