@@ -23,18 +23,63 @@ body {
 
 .title {
     font-family: "Fraunces";
-    font-size: 20px;
+    font-size: 40px;
     font-weight: bold;
     color: white;
     letter-spacing: 5px;
     padding: 30px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
+/*------IMAGEM DO OVO------*/
 .ovo {
-    grid-column: 100%;
+    /*grid-column: 100%;
     background-image: url(./images/mobile/image-transform.jpg);
     background-size: auto;
     background-position: top;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/*-----TEXTO TRANSFORM-----*/
+
+.transform-brand {
+    display: flex;
+    flex-direction: column;
+}
+
+.transform-brand:nth-child(2) {
+    background-color: #fffbf8;
+    font-family: "Barlow";
+}
+
+.transform-brand:nth-child(2) h1 {
+    font-family: "Fraunces";
+    font-size: 30px;
+    font-weight: bold 900px;
+    padding: 30px;
+    color: #23303E;
+}
+
+.transform-brand:nth-child(2) P {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: 600;
+    letter-spacing: tight;
+    color: #818498;
+    line-height: 25px;
+}
+
+.transform-brand:nth-child(2) .learn {
+    font-family: "Fraunces";
+    font-size: 12px;
+    font-weight: 700;
+    color: #23303E;
+    padding: 20px;
 }
 
