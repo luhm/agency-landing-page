@@ -9,6 +9,7 @@ body {
     font-size: 18px;
     text-align: center;
     width: 375px;
+    max-width: 375px;
     height: 100%;
 }
 
@@ -19,6 +20,36 @@ body {
     background-image: url(./images/mobile/image-header.jpg) ;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+/* h1 {
+    /* letter-spacing: 3px; */
+    /* display: flex;
+    font-weight: 800;
+    padding-top: 20px;
+    padding-left: 20px;
+} */ 
+
+.container1 > .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.container1 > .top > h1 {
+    padding-left: 20px;
+    color: #fffbf8;
+}
+
+.container1 > .top > .menu {
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.container1 > .top > .menu:hover {
+    background-color: #8FD5C8;
 }
 
 .title {
@@ -220,10 +251,54 @@ body {
     color: #A7ABAE;
 }
 
-.testimonials img {
+.testimonials > img {
     border-radius: 50%;
     margin-top: 40px;
 }
 
+/*-----IMAGENS COLORIDAS-----*/
 
+.all-image {
+    /* display: flex;
+    max-width: 100%;
+    width: 100%;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin: 0; */
+    display: flex;
+    flex-direction: column;
+}
+
+/*-----FOOTER-----*/
+
+footer {
+    background-color: #8FD5C8;
+    color: #458C7E;
+}
+
+footer h1 {
+    /* letter-spacing: 3px; */
+    font-weight: 800;
+    padding-top: 40px;
+}
+
+.footer-words {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 30px 10px 30px;
+    font-family: "Barlow";
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.socials {
+    padding: 20px 60px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.attribution {
+    font-size: 12px;
+}
 
