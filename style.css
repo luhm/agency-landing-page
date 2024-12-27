@@ -42,7 +42,33 @@ body {
     color: #fffbf8;
 }
 
-.container1 > .top > .menu {
+.container1 .menu {
+    display: flex;
+    flex-direction: row;
+    justify-items: space-between;
+    gap: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    font-family: "Barlow";
+    font-size: small;
+    letter-spacing: 2px;
+    
+}
+
+.home, .products, .staff {
+    padding: 5px;
+    text-decoration: none;
+    color: #fffbf8;
+}
+
+.home:hover, .products:hover, .staff:hover{
+    color: rgb(255, 230, 3);
+    background-color: rgba(255, 244, 243, 0.3);
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+/* .container1 > .top > .menu {
     margin-right: 20px;
     margin-top: 10px;
     margin-bottom: 0px;
@@ -50,7 +76,7 @@ body {
 
 .container1 > .top > .menu:hover {
     background-color: #8FD5C8;
-}
+} */
 
 .title {
     font-family: "Fraunces";
@@ -301,4 +327,8 @@ footer h1 {
 .attribution {
     font-size: 12px;
 }
+
+/* responsive for larger than 520px */
+
+
 
